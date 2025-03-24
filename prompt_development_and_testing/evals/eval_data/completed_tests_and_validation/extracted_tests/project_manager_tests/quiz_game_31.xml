@@ -1,0 +1,38 @@
+<project_plan>
+    <name>Python-Based Quiz Game</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Design a Python-based quiz game that asks the user multiple-choice questions, keeps track of the user's score, and displays it at the end of the game.</description>
+    <tasks>
+        <task>
+            <name>Implement the class structure for the quiz game</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Define multiple-choice questions and answers in a variable</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Create a function to display questions and capture user input</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement score tracking based on user responses</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Create a function to display the final score at the end of the game</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for each of the above features to ensure functionality</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests on all implemented features to ensure they function correctly</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

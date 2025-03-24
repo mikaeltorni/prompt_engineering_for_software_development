@@ -1,0 +1,34 @@
+<project_plan>
+    <name>Python-Based Quiz Game</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Develop a multiple-choice quiz game that tracks the user's score and displays it at the end of the game. Questions and answers will be stored in a variable within the code.</description>
+    <tasks>
+        <task>
+            <name>Implement question and answer storage</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Develop the user interface for the quiz</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement scoring logic to track the user's score</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Display the score at the end of the game</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for the question and answer handling, scoring, and display logic</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests on the complete game to ensure proper functionality</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

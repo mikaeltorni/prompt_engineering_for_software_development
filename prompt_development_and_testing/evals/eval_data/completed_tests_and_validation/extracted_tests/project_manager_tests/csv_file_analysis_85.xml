@@ -1,0 +1,34 @@
+<project_plan>
+    <name>Basic Data Analysis on CSV Files</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>This project involves implementing a Python program that performs basic data analysis on a CSV file by calculating and displaying the mean, median, and mode for numerical columns provided by the user.</description>
+    <tasks>
+        <task>
+            <name>Implement feature to read CSV file and load data</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement feature to calculate mean for selected numerical columns</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement feature to calculate median for selected numerical columns</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement feature to calculate mode for selected numerical columns</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for each of the features above</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests on all implemented features to ensure that they function correctly</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

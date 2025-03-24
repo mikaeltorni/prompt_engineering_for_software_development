@@ -1,0 +1,38 @@
+<project_plan>
+    <name>Simple Contact Book in Python</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Develop a command-line interface contact book that allows for adding, searching, updating, and deleting contacts, with data stored in a JSON file.</description>
+    <tasks>
+        <task>
+            <name>Implement user interface for adding contacts</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement functionality for searching contacts</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement functionality for updating contacts</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement functionality for deleting contacts</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement JSON file handling to store and retrieve contacts</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for the add, search, update, and delete functionalities</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests on all implemented functionalities to ensure they work correctly</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

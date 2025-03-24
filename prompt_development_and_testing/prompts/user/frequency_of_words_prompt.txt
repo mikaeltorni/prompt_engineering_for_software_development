@@ -1,0 +1,1 @@
+Develop a Python program that reads a text file and counts the frequency of each word. Display the top 10 most common words in the terminal.

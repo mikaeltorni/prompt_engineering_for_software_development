@@ -1,0 +1,14 @@
+ID,Name,Age,Email,RegistrationDate,Comments,Score,Active
+1,John Doe,28,john.doe@example.com,2023-01-15,"This is a comment, with a comma",85.6,true
+2,"Jane, A. Doe",34,jane.doe@example.com,2022-12-20,"Multi-line comment: first line
+second line",92.3,false
+3,Bob Smith,45,bob.smith@example.com,2021-07-30,"This is a ""quoted"" comment",75.0,true
+4,Alice Johnson,29,alice.j@example.com,2023-03-10,"Simple comment",88.8,true
+5,"Charlie, O'Brien",37,charlie.obrien@example.com,2020-11-05,"Includes a quote: ""hello""",67.5,false
+6,David Lee,50,david.lee@example.com,2019-05-25,"Contains a newline
+in the middle",93.2,true
+7,Eva Green,22,eva.green@example.com,2022-09-14,"No special characters",55.0,false
+8,Frank Castle,38,frank.castle@example.com,2021-01-01,"Punctuation: !@#$%^&*()",81.1,true
+9,Gina Torres,41,gina.torres@example.com,2023-07-07,"Long comment that spans multiple lines.
+It even has a comma, and a period.",68.4,false
+10,Hank Moody,55,hank.moody@example.com,2020-02-20,"Another ""quoted"" comment, with extra punctuation.",99.9,true

@@ -1,0 +1,34 @@
+<project_plan>
+    <name>Simple Text-Based Game in Python</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Develop a simple text-based adventure game where the player can navigate through different rooms, pick up items, view their inventory, and face simple challenges.</description>
+    <tasks>
+        <task>
+            <name>Implement room navigation functionality</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Create item pickup and inventory management system</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Add simple challenge encounters for the player</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement player input handling for commands</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for each of the functionality above</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests on all implemented features to ensure that they function correctly</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

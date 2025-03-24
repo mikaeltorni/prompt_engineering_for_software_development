@@ -1,0 +1,30 @@
+<project_plan>
+    <name>Temperature Converter CLI Tool in Python</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Implement a command-line tool that converts temperatures between Celsius, Fahrenheit, and Kelvin.</description>
+    <tasks>
+        <task>
+            <name>Implement temperature conversion logic</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Create command-line interface for user input</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement error handling for invalid inputs</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for conversion logic and CLI interactions</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests on all implemented features to ensure they function correctly</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

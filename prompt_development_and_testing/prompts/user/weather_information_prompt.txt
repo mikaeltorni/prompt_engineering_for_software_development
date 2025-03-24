@@ -1,0 +1,1 @@
+Build a Python program that fetches the current weather information for a given city using a public API. Display the temperature, humidity, and weather conditions in the terminal.

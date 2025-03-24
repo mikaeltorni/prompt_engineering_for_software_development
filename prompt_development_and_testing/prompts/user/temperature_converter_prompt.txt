@@ -1,0 +1,1 @@
+Create a command-line Python tool that converts temperatures between Celsius, Fahrenheit, and Kelvin. The user should be able to specify the input temperature and the desired output unit.

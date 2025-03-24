@@ -1,0 +1,1 @@
+Write a Python program that performs basic data analysis on a CSV file. Calculate and display the mean, median, and mode for numerical columns provided by the user.

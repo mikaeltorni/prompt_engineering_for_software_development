@@ -1,0 +1,108 @@
+description: "Project Manager XML Plan Text Output Evaluation"
+
+providers:
+  - id: openai:gpt-4o-mini-2024-07-18
+    config:
+      temperature: 0
+      max_tokens: 16384
+      top_p: 1
+      frequency_penalty: 0
+      presence_penalty: 0
+
+defaultTest:
+  options:
+    provider: openai:gpt-4o-mini-2024-07-18
+
+prompts:
+  - file://../../formats/prompt_format_with_system_prompt.json
+
+tests:
+  - description: 'Test calculator functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/calculator_no_gui_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test contact book functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/contact_book_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test data analysis functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/data_analysis_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test directory monitor functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/directory_monitor_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test word frequency counter functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/frequency_of_words_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test quiz game functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/quiz_game_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test random password generator functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/random_password_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test temperature converter functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/temperature_converter_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test text-based game functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/text_based_game_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"
+
+  - description: 'Test weather information functionality'
+    vars:
+      system_prompt: file://../../../../multi_agentic_system_for_programming/data/prompts/system/project_manager_prompt.md
+      user_prompt: file://../../../prompts/user/weather_information_prompt.txt
+      system_assertion_prompt: file://../../assertion_prompts/project_manager_agentic_assertion.md
+    assert:
+      - type: llm-rubric
+        value: "{{system_assertion_prompt}}"

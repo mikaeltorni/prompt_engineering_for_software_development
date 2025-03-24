@@ -1,0 +1,26 @@
+<project_plan>
+    <name>Directory Monitoring Script in Python</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Develop a Python script that monitors a specified directory for newly added files and logs their names and creation times.</description>
+    <tasks>
+        <task>
+            <name>Implement directory monitoring functionality</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Add logging functionality to record file names and creation times</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for directory monitoring features</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests to ensure correct functionality of the monitoring script and logging</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

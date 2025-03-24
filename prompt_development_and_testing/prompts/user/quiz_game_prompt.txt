@@ -1,0 +1,1 @@
+Design a Python-based quiz game that asks the user multiple-choice questions. Keep track of the user's score and display it at the end of the game. Questions and answers should be stored in a variable inside the code.

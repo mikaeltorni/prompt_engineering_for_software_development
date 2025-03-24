@@ -1,0 +1,46 @@
+<project_plan>
+    <name>Command-Line Temperature Converter Tool</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Develop a command-line tool in Python that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin.</description>
+    <tasks>
+        <task>
+            <name>Implement Functionality to Convert Celsius to Fahrenheit</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement Functionality to Convert Celsius to Kelvin</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement Functionality to Convert Fahrenheit to Celsius</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement Functionality to Convert Fahrenheit to Kelvin</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement Functionality to Convert Kelvin to Celsius</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement Functionality to Convert Kelvin to Fahrenheit</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Create Command-Line Interface for User Input</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for each of the conversion functionalities</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests on all implemented features to ensure that they function correctly</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

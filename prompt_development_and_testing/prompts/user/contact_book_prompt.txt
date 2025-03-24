@@ -1,0 +1,1 @@
+Create a simple contact book in Python that lets users add, search, update, and delete contacts. Store the contacts in a JSON file and interact with the user through the terminal.

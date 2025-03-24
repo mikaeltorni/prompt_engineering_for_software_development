@@ -1,0 +1,121 @@
+XML Task Analysis Report
+Generated: 2025-03-18 23:25:27
+Directory: C:\Projects\ai\software_prompt_engineering\prompt_development_and_testing\evals\eval_data\completed_tests_and_validation\failing_xml_tests
+
+
+===[calculator_1.xml]===
+
+Task: Terminal-Based Calculator in Python
+Delegated to: Coder, Tester
+Description: Implement a terminal-based calculator that performs basic arithmetic operations including addition, subtraction, multiplication, and division.
+Tasks:
+  - Implement Addition Feature (Delegated to: Coder)
+  - Implement Subtraction Feature (Delegated to: Coder)
+  - Implement Multiplication Feature (Delegated to: Coder)
+  - Implement Division Feature (Delegated to: Coder)
+  - Implement User Input Handling (Delegated to: Coder)
+  - Write tests for each of the calculator operations (Delegated to: Coder)
+  - Execute tests on all implemented features to ensure that they function correctly (Delegated to: Tester)
+
+========================
+
+===[contact_book_1.xml]===
+Error processing contact_book_1.xml: Root element must be 'project_plan'
+==========================
+
+===[csv_file_analysis_1.xml]===
+Error processing csv_file_analysis_1.xml: Missing required fields (name or description) in csv_file_analysis_1.xml
+===============================
+
+===[frequency_of_word_1.xml]===
+
+Task: Word Frequency Counter in Python
+Delegated to: Coder, Tester
+Description: Develop a Python program that reads a text file, counts the frequency of each word, and displays the top 10 most common words in the terminal.
+Tasks:
+  - Implement file reading functionality (Delegated to: Coder)
+  - Implement word counting logic (Delegated to: Coder)
+  - Sort the word counts and retrieve the top 10 most common words (Delegated to: Coder)
+  - Implement terminal display for the top 10 words (Delegated to: Coder)
+  - Write tests for the file reading, word counting, and display functionalities (Delegated to: Coder)
+  - Execute tests on implemented functionalities to ensure correctness (Delegated to: Tester)
+
+===============================
+
+===[monitor_1.xml]===
+
+Task: Directory Monitor Script in Python
+Delegated to: Coder, Tester
+Description: Develop a Python script that monitors a specified directory for new files and logs their name and creation time.
+Tasks:
+  - Set up directory monitoring functionality (Delegated to: Coder)
+  - Implement logging of file names and creation time (Delegated to: Coder)
+  - Write tests for directory monitoring and logging functionalities (Delegated to: Coder)
+  - Execute tests on the implemented functionalities to ensure correct operation (Delegated to: Tester)
+
+=====================
+
+===[password_generator_1.xml]===
+
+Task: Random Password Generator in Python
+Delegated to: Coder, Tester
+Description: Develop a Python script that generates a random password with configurable length, including uppercase letters, lowercase letters, numbers, and special characters.
+Tasks:
+  - Implement password generation logic (Delegated to: Coder)
+  - Allow the user to configure the password length (Delegated to: Coder)
+  - Include uppercase letters in the password generation (Delegated to: Coder)
+  - Include lowercase letters in the password generation (Delegated to: Coder)
+  - Include numbers in the password generation (Delegated to: Coder)
+  - Include special characters in the password generation (Delegated to: Coder)
+  - Write tests for the password generator (Delegated to: Coder)
+  - Execute tests on the password generation logic to ensure it generates valid passwords (Delegated to: Tester)
+
+================================
+
+===[quiz_game_1.xml]===
+Error processing quiz_game_1.xml: Missing required fields (name or description) in quiz_game_1.xml
+=======================
+
+===[room_game_1.xml]===
+
+Task: Simple Text-Based Game in Python
+Delegated to: Coder, Tester
+Description: Build a simple text-based game where the player can navigate through various rooms, pick up items, view inventory, and face simple challenges.
+Tasks:
+  - Implement Room Navigation (Delegated to: Coder)
+  - Implement Item Pickup Feature (Delegated to: Coder)
+  - Implement Inventory Viewing Feature (Delegated to: Coder)
+  - Implement Simple Challenges (Delegated to: Coder)
+  - Write tests for each of the implemented features above (Delegated to: Coder)
+  - Execute tests on all implemented features to ensure that they function correctly (Delegated to: Tester)
+
+=======================
+
+===[temperature_converter_1.xml]===
+Error processing temperature_converter_1.xml: Missing required fields in task (name or delegatedTo) in temperature_converter_1.xml
+===================================
+
+===[weather_app_1.xml]===
+
+Task: Weather Information Fetcher
+Delegated to: Coder, Tester
+Description: Build a Python program that fetches the current weather information for a given city using a public API. The program will display the temperature, humidity, and weather conditions in the terminal.
+Tasks:
+  - Research and choose a suitable public API for fetching weather data (Delegated to: Coder)
+  - Implement function to fetch weather data for a given city (Delegated to: Coder)
+  - Parse the fetched weather data to extract temperature, humidity, and weather conditions (Delegated to: Coder)
+  - Implement terminal output to display the fetched weather information (Delegated to: Coder)
+  - Write tests for the fetching and parsing functions (Delegated to: Coder)
+  - Execute tests on all implemented features to ensure that they function correctly (Delegated to: Tester)
+
+=========================
+
+Analysis Summary:
+- Total XML files processed: 10
+- Successfully parsed: 6/10 (60.0%)
+
+Failed files and reasons:
+- contact_book_1.xml: Root element must be 'project_plan'
+- csv_file_analysis_1.xml: Missing required fields (name or description) in csv_file_analysis_1.xml
+- quiz_game_1.xml: Missing required fields (name or description) in quiz_game_1.xml
+- temperature_converter_1.xml: Missing required fields in task (name or delegatedTo) in temperature_converter_1.xml

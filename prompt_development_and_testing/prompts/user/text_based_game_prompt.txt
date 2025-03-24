@@ -1,0 +1,1 @@
+Build a simple text-based game in Python where the player can navigate through different rooms. Implement features like picking up items, viewing inventory, and encountering simple challenges.

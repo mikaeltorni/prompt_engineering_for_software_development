@@ -1,0 +1,34 @@
+<project_plan>
+    <name>Word Frequency Counter in Python</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Develop a Python program to read a text file, count the frequency of each word, and display the top 10 most common words in the terminal.</description>
+    <tasks>
+        <task>
+            <name>Read text file and extract words</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Count frequency of each word</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Identify the top 10 most common words</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Display the top 10 most common words in the terminal</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for the functions implemented above</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests to ensure correctness of implemented features</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

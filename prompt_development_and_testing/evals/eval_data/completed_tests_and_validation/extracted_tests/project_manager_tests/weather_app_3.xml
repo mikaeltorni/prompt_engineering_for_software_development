@@ -1,0 +1,38 @@
+<project_plan>
+    <name>Weather Information Fetcher in Python</name>
+    <delegatedTo>
+        <agent>Coder</agent>
+        <agent>Tester</agent>
+    </delegatedTo>
+    <description>Build a Python program that fetches the current weather information for a given city using a public API.</description>
+    <tasks>
+        <task>
+            <name>Research and select a suitable public API for fetching weather data</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Implement functionality to input a city name</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Fetch the current weather data from the selected API for the given city</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Parse and extract temperature, humidity, and weather conditions from the fetched data</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Display the extracted weather information in the terminal</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Write tests for each functionality above to ensure correct implementation</name>
+            <delegatedTo>Coder</delegatedTo>
+        </task>
+        <task>
+            <name>Execute tests on all implemented features to ensure that they function correctly</name>
+            <delegatedTo>Tester</delegatedTo>
+        </task>
+    </tasks>
+</project_plan>

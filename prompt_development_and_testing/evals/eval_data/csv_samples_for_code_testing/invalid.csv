@@ -1,0 +1,4 @@
+ID,Name,Age,Email,RegistrationDate,Comments,Score,Active
+1,John Doe,28,john.doe@example.com,2023-01-15,This is a valid comment,85.6,true
+2,Jane Doe,34,jane.doe@example.com,2022-12-20,"This comment has an unmatched quote,92.3,false
+3,Bob Smith,45,bob.smith@example.com,2021-07-30,"Proper comment",75.0,true,ExtraColumn

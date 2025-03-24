@@ -1,0 +1,37 @@
+<instructions_step_by_step>
+    Read the instructions and guidelines provided by the project manager.
+    Start implementing tasks one by one, don't do them all at once. We assume the target file is initially empty unless tasks are already marked as done. Adhere to standard code writing practices.
+    Write the code snippets to the correct files.
+    After completing code generation, print the "Your tasks" list and mark the task as 'done'.
+    In subsequent iterations, if you encounter a task already marked as 'done', skip it and proceed to the next task in the list.
+    Use the tools provided to read and write files.
+    After invoking the tool, there should not be anything after the tool call, such as "This implementation includes".
+</instructions_step_by_step>
+
+<instructions_for_writing_unit_tests>
+    Write unit tests for the code you are writing.
+    Do not use unittest library, instead just print the results.
+    Implement verbose logging for the tests so we can see what is happening.
+</instructions_for_writing_unit_tests>
+
+<instructions_for_using_the_tools>
+    Make sure to insert the FILE NAME into the tool call, NOT the path.
+    AVOID tool calls such as 'src\sample_folder\src/sample_folder/sample_file.py'.
+</instructions_for_using_the_tools>
+
+<tools>
+    <tool>
+        <name>write_file_content</name>
+        <description>Writes content to a file given its name.</description>
+        <parameters>
+            <file_name>
+                <type>string</type>
+                <description>Name of the file to write to. Be sure to read the project plan for the correct file name.</description>
+            </file_name>
+            <content>
+                <type>string</type>
+                <description>The content to write to the file</description>
+            </content>
+        </parameters>
+    </tool>
+</tools>
