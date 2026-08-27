@@ -38,7 +38,7 @@ Follow-up work optimizing production coding prompts continues in
 For reusable challenge-generation assets, see the related
 [Prompt Challenge Generator](https://github.com/mikaeltorni/prompt_challenge_generator).
 
-## Features
+## Prompt Engineering for Software Development Features
 
 This repository holds the two artifacts produced for the thesis:
 
@@ -68,7 +68,7 @@ above with [promptfoo](https://www.promptfoo.dev/):
   passing/failing test extractions.
 - `evals/instructions_for_running_evals.md` — how to reproduce the evaluations.
 
-## Installation and usage examples
+## Prompt Engineering for Software Development: Installation and usage examples
 
 Each subproject has its own `requirements.txt`:
 
@@ -87,7 +87,7 @@ The multi-agent prototype keeps project settings in
 harness documents the model keys, promptfoo configuration, and environment
 variables in its running instructions; do not commit API credentials.
 
-## Troubleshooting and FAQ
+## Prompt Engineering for Software Development FAQ
 
 ### What is this repository for?
 
