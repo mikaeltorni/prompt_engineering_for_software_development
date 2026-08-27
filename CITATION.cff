@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use Prompt Engineering for Software Development, please cite this repository."
+title: "Prompt Engineering for Software Development"
+type: software
+abstract: "Prompt Engineering for Software Development is a research repository that evaluates prompt engineering for software development with a multi-agent LLM system for software teams."
+authors:
+  - family-names: Torni
+    given-names: Mikael
+repository-code: "https://github.com/mikaeltorni/prompt_engineering_for_software_development"
+license: MIT

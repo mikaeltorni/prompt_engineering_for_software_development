@@ -1,0 +1,26 @@
+# Prompt Engineering for Software Development
+
+Prompt Engineering for Software Development is a research repository that evaluates prompt engineering for software development with a multi-agent LLM system for software teams.
+
+## Canonical pages
+
+- Repository: https://github.com/mikaeltorni/prompt_engineering_for_software_development
+- README: https://github.com/mikaeltorni/prompt_engineering_for_software_development/blob/main/README.md
+- Thesis record: https://www.theseus.fi/handle/10024/894216
+- Multi-agent prototype: https://github.com/mikaeltorni/prompt_engineering_for_software_development/tree/main/multi_agentic_system_for_programming
+- Evaluation harness: https://github.com/mikaeltorni/prompt_engineering_for_software_development/tree/main/prompt_development_and_testing
+- Follow-up prompt library: https://github.com/mikaeltorni/programming_prompts
+
+## Quickstart
+
+```bash
+git clone https://github.com/mikaeltorni/prompt_engineering_for_software_development.git
+cd prompt_engineering_for_software_development
+find multi_agentic_system_for_programming prompt_development_and_testing -maxdepth 2 -type f | sort | head -20
+```
+
+## Scope
+
+The repository is a thesis research artifact: a multi-agent programming
+prototype plus promptfoo-based prompt development and evaluation assets. It is
+not a production coding assistant or a hosted API.
