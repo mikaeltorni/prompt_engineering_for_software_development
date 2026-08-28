@@ -33,9 +33,6 @@ Read the full thesis: **["Prompt engineering for software development"](https://
 Follow-up work optimizing production coding prompts continues in
 [`programming_prompts`](https://github.com/mikaeltorni/programming_prompts).
 
-For reusable challenge-generation assets, see the related
-[Prompt Challenge Generator](https://github.com/mikaeltorni/prompt_challenge_generator).
-
 ## Prompt Engineering for Software Development Features
 
 This repository holds the two artifacts produced for the thesis:
