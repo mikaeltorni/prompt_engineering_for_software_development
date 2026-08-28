@@ -6,6 +6,8 @@
 
 Prompt Engineering for Software Development is a research repository that evaluates prompt engineering for software development with a multi-agent LLM system for software teams.
 
+![Diagram showing thesis research branching into a multi-agent programming prototype and a promptfoo evaluation harness](docs/research-flow.svg)
+
 The Bachelor's thesis artifacts study project manager, coder, tester, and
 debugger agents, together with the prompt-development and evaluation harness
 used to measure prompt quality.
