@@ -10,10 +10,6 @@ The Bachelor's thesis artifacts study project manager, coder, tester, and
 debugger agents, together with the prompt-development and evaluation harness
 used to measure prompt quality.
 
-**Topics:** prompt-engineering · large-language-models · llm-agents ·
-multi-agent-systems · ai-coding-assistant · promptfoo · prompt-evaluation ·
-software-development · thesis · gpt
-
 ## Quickstart
 
 Clone the thesis artifacts and inspect the two research components:
