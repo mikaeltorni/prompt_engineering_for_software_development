@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mikaeltorni.github.io/prompt_engineering_for_software_development/sitemap.xml
