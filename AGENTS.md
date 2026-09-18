@@ -27,12 +27,12 @@ not a site — keep it.
 
 ## Never add contribution or community-process files
 
-Because the thesis is archived and closed to contributions, do not add
-`CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, issue templates, pull
-request templates, or GitHub Community Standards scaffolding under `.github/`.
-Audits score those rows `N/A — archived thesis artifact, not accepting
-contributions`. `LICENSE` and `CITATION.cff` stay: they cover reuse and
-citation, which is what this repository is for.
+This repository follows the owner-wide SEO policy for public repositories. Do
+not add or restore `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, issue
+templates, pull-request templates, or GitHub Community Standards scaffolding
+under `.github/`. Audits score those rows `N/A — community and contribution
+files are out of scope by owner policy`. `LICENSE` and `CITATION.cff` stay:
+they cover reuse and citation, which is what this repository is for.
 
 ## Do not cross-link `prompt_challenge_generator`
 
