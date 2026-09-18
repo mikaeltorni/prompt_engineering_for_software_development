@@ -25,15 +25,6 @@ scaffolding, a GitHub Pages deployment, or a README badge or link pointing at a
 The diagram the README embeds (`docs/research-flow.svg`) is a repository asset,
 not a site — keep it.
 
-## Never add contribution or community-process files
-
-This repository follows the owner-wide SEO policy for public repositories. Do
-not add or restore `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, issue
-templates, pull-request templates, or GitHub Community Standards scaffolding
-under `.github/`. Audits score those rows `N/A — community and contribution
-files are out of scope by owner policy`. `LICENSE` and `CITATION.cff` stay:
-they cover reuse and citation, which is what this repository is for.
-
 ## Do not cross-link `prompt_challenge_generator`
 
 That project is unrelated to the thesis. The README links only the Theseus
