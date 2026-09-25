@@ -4,7 +4,7 @@ title: "Prompt Engineering for Software Development"
 type: software
 abstract: "Prompt Engineering for Software Development is a research repository that evaluates prompt engineering for software development with a multi-agent LLM system for software teams."
 authors:
-  - family-names: Torni
+  - family-names: Törni
     given-names: Mikael
 repository-code: "https://github.com/mikaeltorni/prompt_engineering_for_software_development"
 license: MIT
