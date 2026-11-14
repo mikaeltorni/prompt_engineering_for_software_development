@@ -65,15 +65,15 @@ above with [promptfoo](https://www.promptfoo.dev/):
 
 ## Prompt Engineering for Software Development: Installation and usage examples
 
-Each subproject has its own `requirements.txt`:
+Install the prototype's Python dependencies from the repository root:
 
 ```bash
-cd multi_agentic_system_for_programming   # or prompt_development_and_testing/evals
-pip install -r requirements.txt
+pip install -r multi_agentic_system_for_programming/requirements.txt
 ```
 
-See `prompt_development_and_testing/evals/instructions_for_running_evals.md` for
-running the promptfoo evaluations.
+The evaluation harness uses Node.js and `npx promptfoo`; see
+`prompt_development_and_testing/evals/instructions_for_running_evals.md` for
+its setup and commands.
 
 ## Configuration
 
